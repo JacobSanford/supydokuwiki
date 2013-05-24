@@ -1,0 +1,16 @@
+# User name and password for dokuwiki. The user must have
+# read access to any article you wish to display.
+user_name = ''
+password = ''
+
+# The root url to the dokuwiki install. In the case of
+# http://widget.info/wiki/, this would be http://widget.info
+root_url = ''
+
+# The base path to the dokuwiki install. In the case of
+# http://widget.info/wiki/, this would be 'wiki' only
+base_path = ''
+
+# These are the default settings and shouldn't need to be changed.
+login_path = 'start?do=login'
+search_path = 'start?do=search&id='
