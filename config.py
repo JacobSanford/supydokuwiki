@@ -3,7 +3,7 @@ import supybot.registry as registry
 
 def configure(advanced):
     from supybot.questions import expect, anything, something, yn
-    conf.registerPlugin('supydokuwiki', True)
+    conf.registerPlugin('SupyDokuWiki', True)
 
-supydokuwiki = conf.registerPlugin('supydokuwiki')
-conf.registerChannelValue(supydokuwiki,'enable',registry.Boolean('False',"""Enable displaying messages from supydokuwiki in channel?"""))
+SupyDokuWiki = conf.registerPlugin('SupyDokuWiki')
+conf.registerChannelValue(SupyDokuWiki,'enable',registry.Boolean('False',"""Enable displaying messages from SupyDokuWiki in channel?"""))

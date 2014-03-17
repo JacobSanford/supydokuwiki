@@ -1,4 +1,4 @@
-# supydokuwiki
+# SupyDokuWiki
 Supybot plugin to query and parrot information from a dokuwiki instance.
 
 The plugin supports dokuwiki authentication through the 'requests' module. 

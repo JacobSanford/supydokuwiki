@@ -1,4 +1,4 @@
 from supybot.test import *
 
-class supydokuwikiTestCase(PluginTestCase):
-    plugins = ('supydokuwiki')
+class SupyDokuWikiTestCase(PluginTestCase):
+    plugins = ('SupyDokuWiki')

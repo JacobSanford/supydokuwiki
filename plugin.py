@@ -8,8 +8,8 @@ import supybot.ircmsgs as ircmsgs
 from supybot.commands import *
 import urllib
 
-class supydokuwiki(callbacks.Plugin) :
-    """Add the help for "@plugin help supydokuwiki" here
+class SupyDokuWiki(callbacks.Plugin) :
+    """Add the help for "@plugin help SupyDokuWiki" here
     This should describe *how* to use this plugin."""
     threaded = True
 
@@ -102,4 +102,4 @@ class supydokuwiki(callbacks.Plugin) :
         login_post_result = session.post(login_url, data = login_data)
         return session.get(search_url).text
 
-Class = supydokuwiki
+Class = SupyDokuWiki
